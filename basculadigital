@@ -24,7 +24,7 @@ void loop()
 
 	lcd.setCursor(0,0);
 	lcd.print("Fuerza:");
-	Fuerza_sensor = pow((resistencia_sensor/6080.8),-1.4125);
+	Fuerza_sensor = pow((resistencia_sensor/5476.4),-1.3267);
 	lcd.print(Fuerza_sensor);
 	lcd.print(" N");
 	lcd.setCursor(0,1);
